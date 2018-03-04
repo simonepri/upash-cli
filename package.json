@@ -1,0 +1,54 @@
+{
+  "name": "@upash/cli",
+  "version": "0.0.0",
+  "description": "Easy to use CLI for all password hashing algorithms",
+  "license": "MIT",
+  "homepage": "https://github.com/simonepri/upash-cli#readme",
+  "repository": "github:simonepri/upash-cli",
+  "bugs": {
+    "url": "https://github.com/simonepri/upash-cli/issues",
+    "email": "simonepri@outlook.com"
+  },
+  "author": "Simone Primarosa <simonepri@outlook.com> (https://simoneprimarosa.com)",
+  "contributors": [
+    "Simone Primarosa <simonepri@outlook.com> (https://simoneprimarosa.com)"
+  ],
+  "keywords": [],
+  "bin": {
+    "upash": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "xo",
+    "release": "np",
+    "update": "npm-check -u"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@upash/universal": "^0.0.0",
+    "@upash/argon2": "^0.0.0",
+    "@upash/scrypt": "^0.0.0",
+    "@upash/bcrypt": "^0.0.0",
+    "@upash/pbkdf2": "^0.0.0",
+    "log-symbols": "^2.2.0",
+    "meow": "^4.0.0",
+    "update-notifier": "^2.3.0"
+  },
+  "devDependencies": {
+    "np": "*",
+    "npm-check": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true
+  }
+}
