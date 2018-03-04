@@ -1,5 +1,3 @@
 parsers:
   javascript:
     enable_partials: yes
-ignore:
-  - "cli.js"

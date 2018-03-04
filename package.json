@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "node cli.js",
-    "test": "xo",
+    "test": "xo &&nyc ava",
     "release": "np",
     "update": "npm-check -u"
   },
@@ -43,9 +43,21 @@
     "update-notifier": "^2.3.0"
   },
   "devDependencies": {
+    "ava": "*",
+    "execa": "*",
     "np": "*",
+    "nyc": "*",
     "npm-check": "*",
     "xo": "*"
+  },
+  "ava": {
+    "verbose": true
+  },
+  "nyc": {
+    "reporter": [
+      "lcovonly",
+      "text"
+    ]
   },
   "xo": {
     "prettier": true,
