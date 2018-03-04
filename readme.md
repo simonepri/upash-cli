@@ -1,4 +1,5 @@
 <h1 align="center">
+  <img src="https://github.com/simonepri/upash-cli/raw/master/media/preview.gif" alt="upash cli">
   <b>@upash/cli</b>
 </h1>
 <p align="center">
