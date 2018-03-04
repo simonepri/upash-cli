@@ -49,8 +49,8 @@
   <br/>
 
   <!-- Version - npm -->
-  <a href="https://www.npmjs.com/package/upash-cli">
-    <img src="https://img.shields.io/npm/v/upash-cli.svg" alt="Latest version on npm" />
+  <a href="https://www.npmjs.com/package/@upash/cli">
+    <img src="https://img.shields.io/npm/v/@upash/cli.svg" alt="Latest version on npm" />
   </a>
   <!-- License - MIT -->
   <a href="https://github.com/simonepri/upash-cli/tree/master/license">
