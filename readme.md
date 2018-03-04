@@ -27,6 +27,10 @@
 
   <br/>
 
+  <!-- Mentioned - Awesome NodeJS -->
+  <a href="https://github.com/sindresorhus/awesome-nodejs#security">
+    <img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome NodeJS" />
+  </a>
   <!-- Code Style - XO-Prettier -->
   <a href="https://github.com/xojs/xo">
     <img src="https://img.shields.io/badge/code_style-XO+Prettier-5ed9c7.svg" alt="XO Code Style used" />
