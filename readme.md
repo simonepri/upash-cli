@@ -88,7 +88,7 @@ npm install -g @upash/cli
 ```
 
 ## Help
-```bash
+```
 Usage
   $ upash hash <algorithm name> <password string>
   $ upash verify <algorithm name> <hash string> <password string>
