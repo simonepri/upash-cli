@@ -1,6 +1,6 @@
 {
   "name": "@upash/cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Easy to use CLI for all password hashing algorithms",
   "license": "MIT",
   "homepage": "https://github.com/simonepri/upash-cli#readme",
