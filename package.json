@@ -44,10 +44,10 @@
   },
   "devDependencies": {
     "ava": "*",
-    "execa": "*",
+    "execa": "^0.9.0",
     "np": "*",
-    "nyc": "*",
     "npm-check": "*",
+    "nyc": "*",
     "xo": "*"
   },
   "ava": {
