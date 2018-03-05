@@ -74,7 +74,7 @@
 </p>
 
 ## Synopsis
-<img src="https://github.com/simonepri/upash-cli/raw/master/media/preview.gif" alt="upash cli" width="400" align="right"/>
+<img src="https://github.com/simonepri/upash/raw/master/media/cli.gif" alt="upash cli" width="400" align="right"/>
 
 This package is part of the [upash][home] project,
 which aim is to provide a unified and user-friendly APIs for all the passwords
