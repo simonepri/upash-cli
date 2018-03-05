@@ -84,7 +84,7 @@ In particular, this package allows you to use multiple password hashing
 algorithms through a simple CLI.
 
 Do you believe that this is *useful*?
-It has *saved you time*?
+Has it *saved you time*?
 Or maybe you simply *like it*?  
 If so, [show your appreciation with a Star ⭐️][start].
 
