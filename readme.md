@@ -158,7 +158,7 @@ Thanks!
 ## Authors
 - **Simone Primarosa** - *Follow* me on
 *Github* ([:octocat:@simonepri][github:simonepri]) and on
-*Twitter* ([🐦@simonepri][twitter:simonepri])
+*Twitter* ([🐦@simoneprimarosa][twitter:simoneprimarosa])
 
 See also the list of [contributors][contributors] who participated in this project.
 
@@ -182,4 +182,4 @@ This project is licensed under the MIT License - see the [license][license] file
 [pbkdf2]: https://github.com/simonepri/upash-pbkdf2
 
 [github:simonepri]: https://github.com/simonepri
-[twitter:simonepri]: http://twitter.com/intent/user?screen_name=simoneprimarosa
+[twitter:simoneprimarosa]: http://twitter.com/intent/user?screen_name=simoneprimarosa
