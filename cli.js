@@ -97,7 +97,7 @@ Promise.resolve()
             )
           );
         }
-        return upash.hash(cli.input[1], cli.input[2], cli.flags);
+        return upash.use(cli.input[1]).hash(cli.input[2], cli.flags);
       }
       case 'verify': {
         if (cli.input.length !== 4) {
@@ -107,7 +107,7 @@ Promise.resolve()
             )
           );
         }
-        return upash.verify(cli.input[1], cli.input[2], cli.input[3]);
+        return upash.use(cli.input[1]).verify(cli.input[2], cli.input[3]);
       }
       default: {
         cli.showHelp(0);

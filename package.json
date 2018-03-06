@@ -32,11 +32,11 @@
     "access": "public"
   },
   "dependencies": {
-    "@upash/argon2": "^1.0.0",
-    "@upash/bcrypt": "^1.0.0",
-    "@upash/pbkdf2": "^1.0.0",
-    "@upash/scrypt": "^1.0.0",
-    "@upash/universal": "^1.0.0",
+    "@upash/argon2": "^1.0.1",
+    "@upash/bcrypt": "^1.0.1",
+    "@upash/pbkdf2": "^1.0.1",
+    "@upash/scrypt": "^1.0.1",
+    "@upash/universal": "^2.0.0",
     "log-symbols": "^2.2.0",
     "meow": "^4.0.0",
     "update-notifier": "^2.3.0"
