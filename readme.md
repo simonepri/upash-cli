@@ -175,7 +175,7 @@ This project is licensed under the MIT License - see the [license][license] file
 [license]: https://github.com/simonepri/upash-cli/tree/master/license
 [contributing]: https://github.com/simonepri/upash-cli/tree/master/.github/contributing.md
 
-[universal]: https://github.com/simonepri/upash-universal
+[universal]: https://github.com/simonepri/upash
 [argon2]: https://github.com/simonepri/upash-argon2
 [scrypt]: https://github.com/simonepri/upash-scrypt
 [bcrypt]: https://github.com/simonepri/upash-bcrypt
