@@ -1,9 +1,9 @@
 import test from 'ava';
 import execa from 'execa';
-import argon2 from '@upash/argon2';
-import scrypt from '@upash/scrypt';
-import bcrypt from '@upash/bcrypt';
-import pbkdf2 from '@upash/pbkdf2';
+import argon2 from '@phc/argon2';
+import scrypt from '@phc/scrypt';
+import bcrypt from '@phc/bcrypt';
+import pbkdf2 from '@phc/pbkdf2';
 
 test('should hash with argon2', async t => {
   const result = await execa('./cli.js', ['hash', 'argon2', 'Hello World']);
@@ -17,7 +17,7 @@ test('should verify with argon2', async t => {
     'verify',
     'argon2',
     hash,
-    'Hello World',
+    'Hello World'
   ]);
   const match = result.stdout;
   t.is(match, 'true');
@@ -35,7 +35,7 @@ test('should verify with scrypt', async t => {
     'verify',
     'scrypt',
     hash,
-    'Hello World',
+    'Hello World'
   ]);
   const match = result.stdout;
   t.is(match, 'true');
@@ -53,7 +53,7 @@ test('should verify with bcrypt', async t => {
     'verify',
     'bcrypt',
     hash,
-    'Hello World',
+    'Hello World'
   ]);
   const match = result.stdout;
   t.is(match, 'true');
@@ -71,7 +71,7 @@ test('should verify with pbkdf2', async t => {
     'verify',
     'pbkdf2',
     hash,
-    'Hello World',
+    'Hello World'
   ]);
   const match = result.stdout;
   t.is(match, 'true');

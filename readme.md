@@ -5,8 +5,8 @@
 </p>
 <p align="center">
   <!-- CI - TravisCI -->
-  <a href="https://travis-ci.org/simonepri/upash-cli">
-    <img src="https://img.shields.io/travis/simonepri/upash-cli/master.svg?label=MacOS%20%26%20Linux" alt="Mac/Linux Build Status" />
+  <a href="https://travis-ci.com/simonepri/upash-cli">
+    <img src="https://img.shields.io/travis/com/simonepri/upash-cli/master.svg?label=MacOS%20%26%20Linux" alt="Mac/Linux Build Status" />
   </a>
   <!-- CI - AppVeyor -->
   <a href="https://ci.appveyor.com/project/simonepri/upash-cli">
@@ -55,8 +55,8 @@
   <br/>
 
   <!-- Version - npm -->
-  <a href="https://www.npmjs.com/package/@upash/cli">
-    <img src="https://img.shields.io/npm/v/@upash/cli.svg" alt="Latest version on npm" />
+  <a href="https://www.npmjs.com/package/upash-cli">
+    <img src="https://img.shields.io/npm/v/upash-cli.svg" alt="Latest version on npm" />
   </a>
   <!-- License - MIT -->
   <a href="https://github.com/simonepri/upash-cli/tree/master/license">
@@ -64,7 +64,7 @@
   </a>
 </p>
 <p align="center">
-  🔒 Easy to use CLI for all password hashing algorithms
+  🌌 Hash password directly from your terminal.
 
   <br/>
 
@@ -83,14 +83,9 @@ hashing algorithms out there.
 In particular, this package allows you to use multiple password hashing
 algorithms through a simple CLI.
 
-Do you believe that this is *useful*?
-Has it *saved you time*?
-Or maybe you simply *like it*?  
-If so, [show your appreciation with a Star ⭐️][start].
-
 ## Install
 ```bash
-npm install -g @upash/cli
+npm install -g upash-cli
 ```
 
 ## Help
@@ -137,28 +132,22 @@ Examples
   $ upash hash bcrypt "Hello World" --rounds=10
 ```
 
-## Related
-- [@upash/universal][universal] -
-🔒 Easy to use Unified API for all password hashing algorithms.
-- [@upash/argon2][argon2] -
-🔒 Easy to use Unified API for Argon2 password hashing algorithm.
-- [@upash/scrypt][scrypt] -
-🔒 Easy to use Unified API for scrypt password hashing algorithm.
-- [@upash/bcrypt][bcrypt] -
-🔒 Easy to use Unified API for bcrypt password hashing algorithm.
-- [@upash/pbkdf2][pbkdf2] -
-🔒 Easy to use Unified API for pbkdf2-crypt password hashing algorithm.
+## Supported password hashing algorithms
+- [@phc/argon2][argon2] -
+🔒 Node.JS Argon2 password hashing algorithm following the PHC string format.
+- [@phc/scrypt][scrypt] -
+🔒 Node.JS Argon2 password hashing algorithm following the PHC string format.
+- [@phc/bcrypt][bcrypt] -
+🔒 Node.JS Argon2 password hashing algorithm following the PHC string format.
+- [@phc/pbkdf2][pbkdf2] -
+🔒 Node.JS Argon2 password hashing algorithm following the PHC string format.
 
 ## Contributing
 Contributions are REALLY welcome and if you find a security flaw in this code,
 PLEASE [report it][new issue].  
-Please check the [contributing guidelines][contributing] for more details.  
-Thanks!
 
 ## Authors
-- **Simone Primarosa** - *Follow* me on
-*Github* ([:octocat:@simonepri][github:simonepri]) and on
-*Twitter* ([🐦@simoneprimarosa][twitter:simoneprimarosa])
+- **Simone Primarosa** - *Github* ([@simonepri][github:simonepri]) • *Twitter* ([@simoneprimarosa][twitter:simoneprimarosa])
 
 See also the list of [contributors][contributors] who participated in this project.
 
@@ -173,13 +162,11 @@ This project is licensed under the MIT License - see the [license][license] file
 [contributors]: https://github.com/simonepri/upash-cli/contributors
 
 [license]: https://github.com/simonepri/upash-cli/tree/master/license
-[contributing]: https://github.com/simonepri/upash-cli/tree/master/.github/contributing.md
 
-[universal]: https://github.com/simonepri/upash
-[argon2]: https://github.com/simonepri/upash-argon2
-[scrypt]: https://github.com/simonepri/upash-scrypt
-[bcrypt]: https://github.com/simonepri/upash-bcrypt
-[pbkdf2]: https://github.com/simonepri/upash-pbkdf2
+[argon2]: https://github.com/simonepri/phc-argon2
+[scrypt]: https://github.com/simonepri/phc-scrypt
+[bcrypt]: https://github.com/simonepri/phc-bcrypt
+[pbkdf2]: https://github.com/simonepri/phc-pbkdf2
 
 [github:simonepri]: https://github.com/simonepri
 [twitter:simoneprimarosa]: http://twitter.com/intent/user?screen_name=simoneprimarosa

@@ -1,7 +1,7 @@
 {
-  "name": "@upash/cli",
-  "version": "0.1.2",
-  "description": "Easy to use CLI for all password hashing algorithms",
+  "name": "upash-cli",
+  "version": "0.0.0",
+  "description": "Hash password directly from your terminal.",
   "license": "MIT",
   "homepage": "https://github.com/simonepri/upash-cli#readme",
   "repository": "github:simonepri/upash-cli",
@@ -28,22 +28,19 @@
     "release": "np",
     "update": "npm-check -u"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
-    "@upash/argon2": "^1.0.1",
-    "@upash/bcrypt": "^1.0.1",
-    "@upash/pbkdf2": "^1.0.1",
-    "@upash/scrypt": "^1.0.1",
-    "@upash/universal": "^2.0.0",
+    "@phc/argon2": "^1.0.9",
+    "@phc/bcrypt": "^1.0.2",
+    "@phc/pbkdf2": "^1.1.14",
+    "@phc/scrypt": "^1.0.4",
     "log-symbols": "^2.2.0",
-    "meow": "^4.0.0",
-    "update-notifier": "^2.3.0"
+    "meow": "^5.0.0",
+    "upash": "^1.0.1",
+    "update-notifier": "^2.5.0"
   },
   "devDependencies": {
     "ava": "*",
-    "execa": "^0.9.0",
+    "execa": "^0.10.0",
     "np": "*",
     "npm-check": "*",
     "nyc": "*",
@@ -129,6 +126,10 @@
   },
   "xo": {
     "prettier": true,
-    "space": true
+    "space": true,
+    "rules": {
+      "prefer-destructuring": "off",
+      "capitalized-comments": "off"
+    }
   }
 }
