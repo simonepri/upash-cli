@@ -38,7 +38,7 @@
     "@upash/scrypt": "^1.0.1",
     "@upash/universal": "^2.0.0",
     "log-symbols": "^2.2.0",
-    "meow": "^4.0.0",
+    "meow": "^5.0.0",
     "update-notifier": "^2.3.0"
   },
   "devDependencies": {
