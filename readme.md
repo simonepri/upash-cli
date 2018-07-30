@@ -123,9 +123,9 @@ Options for scrypt hashing
                              Can be one of ['sha1', 'sha256', 'sha512'].
 
 Examples
-  $ upash hash argon2 "Hello World"
-  $ upash verify pbkdf2 "hash string" "Hello World"
-  $ upash hash bcrypt "Hello World" --rounds=10
+  $ upash hash argon2 'Hello World'
+  $ upash verify pbkdf2 'hash string' 'Hello World'
+  $ upash hash bcrypt 'Hello World' --rounds=10
 ```
 
 ## Supported password hashing algorithms
