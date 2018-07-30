@@ -92,7 +92,7 @@ npm install -g upash-cli
 ```
 Usage
   $ upash hash <algorithm name> <password string>
-  $ upash verify <algorithm name> <hash string> <password string>
+  $ upash verify [<algorithm name>] <hash string> <password string>
 
 Algorithms available
   argon2
@@ -101,30 +101,26 @@ Algorithms available
   pbkdf2
 
 Options for argon2 hashing
-  --type <number>            0, 1 or 2 for Argon2d, Argon2i and Argon2id
-                             respectively.
-  --timeCost <number>        The number of iterations.
-  --memoryCost <number>      The memory usage as 2^memoryCost.
-  --parallelism <number>     The number of parallel threads.
-  --hashLength <number>      The length of the generated hash.
+  --variant <number>         Variant of argon2 to use.
+                             Can be one of ['d', 'i', 'id'] for
+                             argon2d, argon2i and argon2id respectively.
+  --iterations <number>      Number of iterations to use
+  --memory <number>          Amount of memory to use in kibibytes.
+  --parallelism <number>     Degree of parallelism to use.
 
 Options for scrypt hashing
-  --maxtime <number>         The maximum amount of time in seconds spent to
-                             compute the derived key.
-  --maxmem <number>          The maximum number of bytes of RAM used when
-                             computing the derived encryption key.
-  --maxmemfrac <number>      The fraction of the available RAM used when
-                             computing the derived key.
+  --blocksize <number>       Amount of memory to use in kibibytes.
+  --cost <number>            CPU/memory cost parameter.
+  --parallelism <number>     Degree of parallelism to use.
 
  Options for bcrypt hashing
-   --rounds <number>         The number of iterations as 2^rounds.
+   --rounds <number>         Number of iterations to use as as 2^rounds.
 
  Options for pbkdf2 hashing
-   --iterations <number>     The number of iterations to compute the derived
-                             key.
-   --keylen <number>         The length of the computed derived key.
-   --digest <string>         A digest function from the crypto.getHashes()
-                             list of supported digest functions.
+   --iterations <number>     Number of iterations to use.
+   --digest <string>         Name of digest to use when applying the key
+                             derivation function.
+                             Can be one of ['sha1', 'sha256', 'sha512'].
 
 Examples
   $ upash hash argon2 "Hello World"
