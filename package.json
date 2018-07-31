@@ -1,6 +1,6 @@
 {
   "name": "upash-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hash password directly from your terminal.",
   "license": "MIT",
   "homepage": "https://github.com/simonepri/upash-cli#readme",
