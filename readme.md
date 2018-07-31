@@ -76,12 +76,15 @@
 ## Synopsis
 <img src="https://github.com/simonepri/upash/raw/master/media/cli.gif" alt="upash cli" width="400" align="right"/>
 
-This package is part of the [upash][home] project,
+This package is part of the [upash][upash] project,
 which aim is to provide a unified and user-friendly APIs for all the passwords
 hashing algorithms out there.  
 
 In particular, this package allows you to use multiple password hashing
 algorithms through a simple CLI.
+
+Do you believe that this is useful? Has it saved you time? Or maybe you simply like it?  
+If so, [support my work with a Star ⭐️][start].
 
 ## Install
 ```bash
@@ -151,7 +154,7 @@ See also the list of [contributors][contributors] who participated in this proje
 This project is licensed under the MIT License - see the [license][license] file for details.
 
 <!-- Links -->
-[home]: https://github.com/simonepri/upash
+[upash]: https://github.com/simonepri/upash
 
 [start]: https://github.com/simonepri/upash-cli#start-of-content
 [new issue]: https://github.com/simonepri/upash-cli/issues/new
