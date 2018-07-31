@@ -130,13 +130,13 @@ Examples
 
 ## Supported password hashing algorithms
 - [@phc/argon2][argon2] -
-🔒 Node.JS Argon2 password hashing algorithm following the PHC string format.
+🔒 Node.JS argon2 password hashing algorithm following the PHC string format.
 - [@phc/scrypt][scrypt] -
-🔒 Node.JS Argon2 password hashing algorithm following the PHC string format.
+🔒 Node.JS scrypt password hashing algorithm following the PHC string format.
 - [@phc/bcrypt][bcrypt] -
-🔒 Node.JS Argon2 password hashing algorithm following the PHC string format.
+🔒 Node.JS bcrypt password hashing algorithm following the PHC string format.
 - [@phc/pbkdf2][pbkdf2] -
-🔒 Node.JS Argon2 password hashing algorithm following the PHC string format.
+🔒 Node.JS pbkdf2 password hashing algorithm following the PHC string format.
 
 ## Contributing
 Contributions are REALLY welcome and if you find a security flaw in this code,
