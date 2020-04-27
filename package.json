@@ -33,7 +33,7 @@
     "@phc/bcrypt": "^1.0.2",
     "@phc/pbkdf2": "^1.1.14",
     "@phc/scrypt": "^1.0.4",
-    "log-symbols": "^2.2.0",
+    "log-symbols": "^4.0.0",
     "meow": "^5.0.0",
     "upash": "^1.0.1",
     "update-notifier": "^2.5.0"
